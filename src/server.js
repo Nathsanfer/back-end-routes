@@ -12,6 +12,10 @@ app.get("/", (req, res) => {
     return res.status(200).send({ message: "Hello, world!"})
 })
 
+app.get("/2tds2", (req, res) => {
+    return res.status(200).send({ message: "Hello, world!"})
+})
+
 app.listen(serverPort, () => {
     console.log(`🌙 Server started on http://localhost:${serverPort}`)
 })
